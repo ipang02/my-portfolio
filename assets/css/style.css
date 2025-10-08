@@ -2166,13 +2166,13 @@ textarea.form-input::-webkit-resizer {
 /* Floating button */
 .floating-btn {
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
   background-color: #ffc446;
   color: rgb(47, 47, 47);
   border: none;
-  width: 50px;          /* equal width and height */
-  height: 50px;
+  width: 40px;          /* equal width and height */
+  height: 40px;
   border-radius: 50%;   /* makes it perfectly circular */
   font-weight: 500;
   cursor: pointer;
@@ -2193,7 +2193,7 @@ textarea.form-input::-webkit-resizer {
 .floating-btn::after {
   content: "This website is still under development.";
   position: absolute;
-  bottom: 150%;
+  top: 120%;
   right: 0;
   background: #333;
   color: white;
